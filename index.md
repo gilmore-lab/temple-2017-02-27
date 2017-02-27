@@ -1,7 +1,12 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 Temple 2017-02-27
 ================
 Rick Gilmore
-2017-02-22 17:38:20
+2017-02-26 21:27:25
 
 ------------------------------------------------------------------------
 
@@ -43,6 +48,9 @@ A pitch and a prediction
 -   Within 10 years (maybe 5) it will be impossible to get funded or published if you have not adopted them.
 -   Don't worry; It will be good for us and for science.
 
+Motivation
+==========
+
 What is Optic Flow?
 -------------------
 
@@ -77,15 +85,20 @@ Why is optic flow important?
     -   Rotation, translation
     -   Visual proprioception (eye vs. head vs. body)
 
-Flow types and self-motion types
---------------------------------
+Flow and self-motion
+--------------------
 
-| Flow Type             | Movement Type                 |
-|-----------------------|-------------------------------|
-| Expansion/Contraction | Forward/backward head/body    |
-| Rotation              | Rotation of head/body         |
-| Up/down/left/right    | Translation of eyes/head/body |
+<img src="img/flow-motion-types.jpg" height=300px>
 
+<!--
+
+| Flow Type | Movement Type |
+|-----------|---------------|
+| Expansion/Contraction | Forward/backward head/body |
+| Rotation              | Rotation of head/body |
+| Up/down/left/right | Translation of eyes/head/body |
+
+-->
 How Does Optic Flow Sensitivity Develop?
 ----------------------------------------
 
@@ -94,7 +107,7 @@ How Does Optic Flow Sensitivity Develop?
 [(R. Gilmore et al. 2007)](http://doi.org/10.1017/S0952523807070769)
 --------------------------------------------------------------------
 
-4-6 mo-old infants: Larger brain responses to linear patterns.
+4-6 mo-old infants: Larger brain responses to **linear** patterns.
 
 ------------------------------------------------------------------------
 
@@ -105,7 +118,7 @@ How Does Optic Flow Sensitivity Develop?
 [(Hou et al. 2009)](http://doi.org/10.1016/j.visres.2009.08.007)
 ----------------------------------------------------------------
 
--   4-6 mo-old infants: Larger brain responses to faster speeds.
+4-6 mo-old infants: Larger brain responses to **faster** speeds.
 
 ------------------------------------------------------------------------
 
@@ -114,19 +127,18 @@ How Does Optic Flow Sensitivity Develop?
 [(Kiorpes and Movshon 2004)](http://doi.org/10.1017/S0952523804216054)
 ----------------------------------------------------------------------
 
-Sensitivity to slow (linear) speeds develops slowly in monkeys
+Sensitivity to slow (linear) speeds develops slowly in monkeys.
 
 ------------------------------------------------------------------------
 
 <div class="centered">
-<img src="img/kiorpes_movshon_04.fig1.tiff", height=550px"
+<img src="img/kiorpes_movshon_04.jpg", height=550px"
 </div>
 
 Gaps
 ----
 
--   Brain and behavioral responses in childhood
--   Linking brain and behavioral responses
+-   Brain and behavioral responses in childhood?
 -   What influences developmental shifts?
     -   Why **fast speeds**
     -   Why **linear patterns**?
@@ -134,27 +146,23 @@ Gaps
 How Do Children's Brains Respond to Flow?
 -----------------------------------------
 
--   If infant-like: stronger responses to **fast, linear flows**
--   If adult-like: stronger responses to **slow, radial flows**
+-   If infant-like: stronger responses to **fast, linear flows**.
+-   If adult-like: stronger responses to **slow, radial flows**.
 -   If in-between:
     -   fast + radial OR
     -   slow + linear
 
-Brain Responses to Flow
------------------------
-
-Gilmore, R.O., Thomas, A.L., & Fesi, J.D (2016). Children's brain responses to optic flow vary by pattern type and motion speed. PLoS ONE. [doi: 10.1371/journal.pone.0157911](http://doi.org/10.1371/journal.pone.0157911). Materials on Databrary at <http://doi.org/10.17910/B7QG6W>.
-
-Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic flow and motion contrast across patterns and speeds. *Vision Research*, *100*, 56–71. [doi:10.1016/j.visres.2014.04.004](http://doi.org/10.1016/j.visres.2014.04.004). Materials on Databrary at <http://doi.org/http://doi.org/10.17910/B7101Z>.
+Brain responses to flow
+=======================
 
 Methods
 -------
 
--   Time-varying optic flow patterns
--   Steady-state visual evoked potentials (SSVEPs)
-    -   Event-related EEG technique
-    -   Focus on phase-locked, low-order harmonics
--   n=29 4-8 year-olds
+-   Time-varying optic flow patterns.
+-   Steady-state visual evoked potentials (SSVEPs).
+    -   Event-related EEG technique.
+    -   Phase-locked responses at low-order harmonics.
+-   n=29 4-8 year-olds.
 
 2 deg/s translation
 -------------------
@@ -186,9 +194,9 @@ Methods
 Displays
 --------
 
--   Modulate coherence/signal-to-noise ratio (SNR), 100%/0%
+-   Time varying coherence/signal-to-noise ratio (SNR), 100%/0%
 -   Modulation frequency 1.2 Hz (1F1), dot update rate 24 Hz (1F2)
--   Cross pattern and speed
+-   {Linear, Radial, Rotation} x {2 deg/s, 4 deg/s, 8 deg/s}
 
 Data analysis
 -------------
@@ -247,10 +255,14 @@ Data analysis
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 
-------------------------------------------------------------------------
+<!--
+----
 
+<div class="centered">
 <img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
+</div>
 
+-->
 [Complex Domain Plot of 3F1 Channels](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-complex-domain-plots-speed-1.png)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -273,10 +285,15 @@ Data analysis
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 
-------------------------------------------------------------------------
+<!---
 
+----
+
+<div class="centered">
 <img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
+</div>
 
+-->
 Results Summary
 ---------------
 
@@ -325,23 +342,19 @@ Developmental Effects
 -   Children adult-like in many respects
     -   Lateral "pattern" responses @ 1F1
     -   Medial "speed" responses @ 3F1 and 1F2
--   But, children activate smaller \# of channels, more focal
+-   Children activate fewer channels
 
-Behavioral Responses
---------------------
-
-Adamiak, W., Thomas, A.L., Patel, S.M., & Gilmore. R.O. (2015, May). Adult observers’ sensitivity to optic flow varies by pattern and speed. Poster presented at the Vision Sciences Society meeting, St. Pete's Beach, FL. [Databrary](https://databrary.org/volume/73), [F1000 Research](http://f1000research.com/posters/1098278). [GitHub](https://https://github.com/gilmore-lab/moco-3-pattern-psychophysics).
-
-Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age children perceive fast radial optic flow in noise more accurately than slow linear flow. [Databrary](https://nyu.databrary.org/volume/218). [GitHub](https://https://github.com/gilmore-lab/moco-3-pattern-psychophysics).
+Behavioral responses to flow
+============================
 
 Methods
 -------
 
 -   Time-varying optic flow
     -   Radial, linear
-    -   2, 8 deg/s
-    -   5, 10, 15, 20% coherence (adults)
-    -   15, 30, 45, 60% and 20, 40, 60, 80% (children)
+    -   {2 deg/s, 8 deg/s}
+    -   {5, 10, 15, 20%} coherence (adults)
+    -   {15, 30, 45, 60%} and {20, 40, 60, 80%} (children)
 
 Methods
 -------
@@ -355,11 +368,13 @@ Methods
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/adult-laminar-radial/vss-2015-poster/img/optic-flow-psychophysics-display.png" height=500px>
 
-------------------------------------------------------------------------
+Methods
+-------
 
-<iframe src="https://nyu.databrary.org/volume/218#panel-data">
-</iframe>
-<https://nyu.databrary.org/volume/218>
+-   n=34 children (4.3–8.6 yrs, M = 6.5 yrs, 19 Female)
+    -   <https://nyu.databrary.org/volume/218>
+-   n=30 adults (18.7–23.9 yrs, M = 20.8 yrs, 16 female)
+    -   <http://doi.org/10.17910/B7V88T>
 
 Methods
 -------
@@ -415,11 +430,12 @@ Adults' RT
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/rt.plot-1.png" height=500px>
 
-Interim Summary
----------------
+Behavioral Summary
+------------------
 
 -   Children's EEG: highest to **fast** speeds, **radial** (& rotational) patterns
 -   Children's behavior: faster and more accurate to detect **fast** speeds, **radial** patterns
+-   Adults faster and more accurate to detect **slow** **radial** patterns
 
 <!-- ## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png) -->
 <!-- <div class="centered"> -->
@@ -430,15 +446,23 @@ Interim Summary
 <!-- <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px"> -->
 <!-- </div> -->
 What influences developmental shifts?
--------------------------------------
+=====================================
 
--   Predictions
-    -   Fast, **linear** flows common in natural experiences of infants
-    -   Eye/head movements, head instability
-    -   Not much forward/backward locomotion
+------------------------------------------------------------------------
+
+<img src="img/computing-flow.jpg" height=450px>
+
+Potential factors
+-----------------
+
+-   Environment
+-   Posture
+-   Locomotion, head, eye movements
 
 Head mounted eye tracker data from "coupled" infant/mom dyads
 -------------------------------------------------------------
+
+<img src="img/mom-baby-carrier.jpg" height=350px>
 
 Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing in infants and adults. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7.123>
 
@@ -459,11 +483,6 @@ Mothers
 </video>
 <https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true>
 <div>
-
-Computer vision analyses of "experienced" optic flow
-----------------------------------------------------
-
-Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene Statistics of Visual Experience Across Development and Culture. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7988V>
 
 ------------------------------------------------------------------------
 
@@ -486,31 +505,27 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 Findings
 --------
 
--   Infant (passengers) experience faster visual speeds than mothers
--   Infants experience more linear flow
--   [(Raudies et al. 2012)](http://doi.org/10.1109/DevLrn.2012.6400584)
--   [(Raudies and Gilmore 2014)](http://doi.org/10.1162/NECO_a_00645)
+<img src="img/optic-flow-locomotion.jpg" height=500px>
 
-Developmental/Cultural Factors
-------------------------------
+[(Raudies and Gilmore 2014)](http://doi.org/10.1162/NECO_a_00645)
 
--   **Geometry**: Typical distance to surfaces, objects; number of people, objects
--   **Moving through space**: self vs. object motion
--   **Posture**: Walking vs. Crawling
-    -   Distance to ground surface
-    -   Head pitch relative to ground
+Findings
+--------
 
-Video data sharing
-------------------
+-   Infant (passengers) experience faster visual speeds than mother
+-   Controlling for speed of locomotion, environment
 
--   Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene Statistics of Visual Experience Across Development and Culture. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7988V>
--   All data compatible with Databrary [release template](https://databrary.org/access/policies/release-template.html) and [release levels](https://databrary.org/access/guide/investigators/release/release-levels.html)
+Comparing experienced flow across cultures
+------------------------------------------
+
+<video width="532" height="400" controls>
+<source src="https://nyu.databrary.org/slot/11630/1567557,1747248/asset/39854/download?inline=true" type="video/mp4"> Your browser does not support the video tag.
+</video>
+Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene Statistics of Visual Experience Across Development and Culture. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7988V>
 
 ------------------------------------------------------------------------
 
-<video width="640" height="480" controls>
-<source src="https://nyu.databrary.org/slot/11630/1567557,1747248/asset/39854/download?inline=true" type="video/mp4"> Your browser does not support the video tag.
-</video>
+<img src="img/bloomington.jpg" width=400px> <img src="img/chennai.jpg" width=400px>
 
 ------------------------------------------------------------------------
 
@@ -523,10 +538,6 @@ Video data sharing
 --------------------------
 
 <img src="img/time-moving-stationary-indiana-india.png" height=450px>
-
-------------------------------------------------------------------------
-
-<img src="img/bloomington.jpg" width=400px> <img src="img/chennai.jpg" width=400px>
 
 Illustrative Speed Histograms - 6 weeks
 ---------------------------------------
@@ -556,20 +567,20 @@ Pattern Correlation Results
 
 <img src='img/pattern-correlations.jpg' width=800px/>
 
-Conclusions: Empirical Data
----------------------------
+Conclusions: Measuring experienced flow
+---------------------------------------
 
 -   Time stationary &gt;&gt; time in motion
 -   Time in motion increases, faster in U.S.
 -   Fast speeds, broad speed distributions
 -   Linear flow &gt;&gt; radial or rotational flow
 
-Why is this so?
----------------
+Simulating developmental change
+-------------------------------
 
 $\\begin{pmatrix}\\dot{x} \\\\ \\dot{y}\\end{pmatrix}=\\frac{1}{z} \\begin{pmatrix}-f & 0 & x\\\\ 0 & -f & y \\end{pmatrix} \\begin{pmatrix}{v\_x{}}\\\\ {v\_y{}} \\\\{v\_z{}}\\end{pmatrix}+ \\frac{1}{f} \\begin{pmatrix} xy & -(f^2+x^2) & fy\\\\ f^2+y^2 & -xy & -fy \\end{pmatrix} \\begin{pmatrix} \\omega\_{x}\\\\ \\omega\_{y}\\\\ \\omega\_{z} \\end{pmatrix}$
 
-Geometry of environment/observer: (*x*, *y*, *z*)</br> Translational speed: (*v*<sub>*x*</sub>, *v*<sub>*y*</sub>, *v*<sub>*z*</sub>)</br> Rotational speed: (*ω*<sub>*x*</sub>, *ω*<sub>*y*</sub>, *ω**z*)</br> Retinal flow: $(\\dot{x}, \\dot{y})$
+**Geometry of environment/observer**: (*x*, *y*, *z*)</br> **Translational speed**: (*v*<sub>*x*</sub>, *v*<sub>*y*</sub>, *v*<sub>*z*</sub>)</br> **Rotational speed**: (*ω*<sub>*x*</sub>, *ω*<sub>*y*</sub>, *ω**z*)</br> **Retinal flow**: $(\\dot{x}, \\dot{y})$
 
 Parameters For Simulation
 -------------------------
@@ -580,7 +591,7 @@ Parameters For Simulation
 | Locomotor speed | 0.33 m/s        | 0.61 m/s       |
 | Head tilt       | 20 deg          | 9 deg          |
 
-</br> <img src="img/kretch-etal.png" width=600px/> </br> [(K. S. Kretch, Franchak, and Adolph 2014)](http://dx.doi.org/10.1111/cdev.12206)
+</br> <img src="img/kretch-etal.png" width=600px/> </br> [(Kretch, Franchak, and Adolph 2014)](http://dx.doi.org/10.1111/cdev.12206)
 
 Parameters for Simulation
 -------------------------
@@ -617,7 +628,7 @@ Simulated Flow Speeds (m/s)
 
 </br> </br> [(R. O. Gilmore, Raudies, and Jayaraman 2015)](http://doi.org/10.1109/DEVLRN.2015.7345450)
 
-Simulation conclusions
+Simulation Conclusions
 ----------------------
 
 -   Posture influences optic flow speeds & patterns
@@ -625,17 +636,12 @@ Simulation conclusions
     -   Proximity to ground and pitch of head
     -   Geometry matters relatively little
 
-Summary of simulation & head camera analyses
---------------------------------------------
-
--   Infants commonly experience fast, laminar flows.
-    -   Head, eye movements &gt;&gt; forward-facing locomotion
--   Transition from infancy to adulthood shaped by changing statistics of visual input
-    -   Body dimensions, posture, locomotor speed
-
 Summing up
 ----------
 
+-   Infants commonly experience fast, linear optic flow
+    -   Body size, posture, head position/stability
+    -   Similar patterns across cultures
 -   Brain and behavioral responses to optic flow develop throughout childhood
     -   Still immature in 5-8 year-olds
 -   Changes in the statistics of experienced optic flow shape development in infancy, and likely beyond
@@ -643,6 +649,9 @@ Summing up
 ------------------------------------------------------------------------
 
 <img src="http://www.brainbodybeauty.com/art/news_attachments/Go_With_the_Flow.png" height=500px>
+
+On open data sharing
+====================
 
 ------------------------------------------------------------------------
 
@@ -652,20 +661,14 @@ Open, transparent, and reproducible research practices -- including open data sh
 
 ------------------------------------------------------------------------
 
-<iframe src="http://databrary.org">
+<iframe src="https://databrary.org">
 </iframe>
-
-------------------------------------------------------------------------
-
--   Gilmore, R. O., & Adolph, K. E. (2017, February 9). Video can make science more open, transparent, robust, and reproducible. Retrieved from <http://osf.io/3kvp7>
--   Gilmore, R. O., Diaz, M., Wyble, B., & Yarkoni, T. (2017, February 10). Progress toward openness, transparency, and reproducibility in cognitive neuroscience. Retrieved from <http://osf.io/yt3s4>. In press, *Annals of the New York Academy of Sciences*.
-
 The way forward
 ---------------
 
--   Reproducible methods, results, and inferences [(Goodman, Fanelli, and Ioannidis 2016)](http://doi.org/10.1126/scitranslmed.aaf5027)
 -   [Databrary.org](http://databrary.org): share video, procedures/tasks, data
     -   Video the **best** way to capture, share procedures
+    -   Gilmore, R. O., & Adolph, K. E. (2017, February 9). Video can make science more open, transparent, robust, and reproducible. Retrieved from <http://osf.io/3kvp7>
 -   [Open Science Framework (OSF)](http://osf.io): share non-identifiable materials, data
 
 The way forward
@@ -687,7 +690,7 @@ Keep in touch
 Stack
 -----
 
-This talk was produced in [RStudio](http://rstudio.com) version 1.0.136 on 2017-02-22. The code used to generate the slides can be found at <http://github.com/gilmore-lab/temple-2017-02-27/>. Information about the R Session that produced the code is as follows:
+This talk was produced in [RStudio](http://rstudio.com) version 1.0.136 on 2017-02-26. The code used to generate the slides can be found at <http://github.com/gilmore-lab/temple-2017-02-27/>. Information about the R Session that produced the code is as follows:
 
 ``` r
 sessionInfo()
@@ -716,8 +719,6 @@ Gilmore, R. O., F. Raudies, and S. Jayaraman. 2015. “What Accounts for Develop
 
 Gilmore, R.O., C. Hou, M.W. Pettet, and A.M. Norcia. 2007. “Development of Cortical Responses to Optic Flow.” *Visual Neuroscience* 24 (06): 845–56. doi:[10.1017/S0952523807070769](https://doi.org/10.1017/S0952523807070769).
 
-Goodman, Steven N., Daniele Fanelli, and John P. A. Ioannidis. 2016. “What Does Research Reproducibility Mean?” *Science Translational Medicine* 8 (341): 341ps12–341ps12. doi:[10.1126/scitranslmed.aaf5027](https://doi.org/10.1126/scitranslmed.aaf5027).
-
 Hou, C., R.O. Gilmore, M.W. Pettet, and A.M. Norcia. 2009. “Spatio-Temporal Tuning of Coherent Motion Evoked Responses in 4–6 Month Old Infants and Adults.” *Vision Research* 49 (20): 2509–17. doi:[10.1016/j.visres.2009.08.007](https://doi.org/10.1016/j.visres.2009.08.007).
 
 Jouen, François, Jean-Claude Lepecq, Olivier Gapenne, and Bennett I Bertenthal. 2000. “Optic Flow Sensitivity in Neonates.” *Infant Behavior and Development* 23 (3–4): 271–84. doi:[10.1016/S0163-6383(01)00044-3](https://doi.org/10.1016/S0163-6383(01)00044-3).
@@ -727,7 +728,5 @@ Kiorpes, Lynne, and J. Anthony Movshon. 2004. “Development of Sensitivity to V
 Kretch, Kari S., John M. Franchak, and Karen E. Adolph. 2014. “Crawling and Walking Infants See the World Differently.” *Child Development* 85 (4): 1503–18. doi:[10.1111/cdev.12206](https://doi.org/10.1111/cdev.12206).
 
 Raudies, F., and R.O. Gilmore. 2014. “Visual Motion Priors Differ for Infants and Mothers.” *Neural Computation* 26 (11): 2652–68. doi:[10.1162/NECO\_a\_00645](https://doi.org/10.1162/NECO_a_00645).
-
-Raudies, F., R.O. Gilmore, K.S. Kretch, J.M. Franchak, and K.E. Adolph. 2012. “Understanding the Development of Motion Processing by Characterizing Optic Flow Experienced by Infants and Their Mothers.” In *2012 IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL)*, 1–6. doi:[10.1109/DevLrn.2012.6400584](https://doi.org/10.1109/DevLrn.2012.6400584).
 
 Yu, Chen Ping, William K. Page, Roger Gaborski, and Charles J. Duffy. 2010. “Receptive Field Dynamics Underlying MST Neuronal Optic Flow Selectivity.” *Journal of Neurophysiology* 103 (5): 2794–2807. doi:[10.1152/jn.01085.2009](https://doi.org/10.1152/jn.01085.2009).
