@@ -10,20 +10,22 @@ output:
     widescreen: true
     smaller: false
     logo: img/psu-logo.png
-  html_document:
-    keep_md: true
+  pdf_document:
+    latex_engine: xelatex
 ---
 
-----
+##  {.flexbox .vcenter}
+
 <div class="centered">
 
-<span class="talktitle">
-**Go with the flow: The development of behavioral sensitivity and brain responses to optic flow**
-</span>
+<span class="talktitle">Go with the flow: The development of behavioral sensitivity and brain responses to optic flow</span>
 
-### Rick O. Gilmore
+### **Rick O. Gilmore**
 
 *Support*: NSF BCS-1147440, NSF BCS-1238599, NICHD U01-HD-076595
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" width=150px>
+<img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" width=150px>
 </div>
 
 ## Questions
@@ -38,8 +40,8 @@ output:
 
 - **EEG measures** of brain responses to optic flow
 - **Psychophysical measures** of optic flow perception
-- **Computational simulations** of optic flow experiences across developmental milestones
 - **Empirical measures** of experienced optic flow across development from head-mounted video cameras
+- **Computational simulations** of optic flow experiences across developmental milestones
 
 ## Claims
 
@@ -54,7 +56,7 @@ output:
 - Within 10 years (maybe 5) it will be impossible to get funded or published if you have not adopted them.
 - Don't worry; It will be good for us and for science.
 
-# Motivation
+# What's and why's
 
 ## What is Optic Flow?
 
@@ -203,6 +205,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 </br>
 <https://nyu.databrary.org/volume/75/slot/9825/->
 
+<!--
 ## Displays
 
 - Time varying coherence/signal-to-noise ratio (SNR), 100%/0%
@@ -222,6 +225,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
     + *Pattern* (radial, rotation, linear) and *Speed* (2, 4, 8 deg/s) as fixed effects
     + Individual means as random factors
 - Analyze channels independently with conservative $\alpha$ (.0005)
+-->
 
 ## [1F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 
@@ -235,12 +239,13 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px">
 </div>
 
+<!--
 ----
 
 <div class="centered">
 <img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
 </div>
-
+-->
 
 ## [Complex Domain Plot of 1F1 Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png)
 
@@ -254,11 +259,13 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 - Radial & rotation >> translation
 - Amplitude and phase differences
 
+<!--
 ## [2F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/2F1/child/figX-channel-wise-effects-1.png)
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/2F1/child/figX-channel-wise-effects-1.png" width="800px">
 </div>
+-->
 
 ## [3F1 Channel-Wise Results](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/channel-wise-effects-1.png)
 
@@ -293,6 +300,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 - Speed, but not pattern tuned, 2 < 4 = 8 deg/s
 - Amplitude and phase differences
 
+<!--
 ## [1F2 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
 
 <div class="centered">
@@ -304,8 +312,6 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 </div>
-
-<!---
 
 ----
 
@@ -321,9 +327,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
     + speed (medial)
     + vs. pattern (lateral)
 - Radial & rotation <> translation, phase & amplitude
-- Speed tuning (local and global)
-
-## Children vs. Adults
+- Speed tuning
 
 ## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 
@@ -349,6 +353,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
+<!--
 ## [Children's 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
 
 <div class="centered">
@@ -360,12 +365,13 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/adult/figX-channel-wise-effects-1.png" width="800px">
 </div>
+-->
 
 ## Developmental Effects
 
 - Children adult-like in many respects
     + Lateral "pattern" responses @ 1F1
-    + Medial "speed" responses @ 3F1 and 1F2
+    + Medial "speed" responses @ 3F1 (and 1F2)
 - Children activate fewer channels
 
 # Behavioral responses to flow
@@ -398,12 +404,14 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 - n=30 adults (18.7–23.9 yrs, M = 20.8 yrs, 16 female)
     + <http://doi.org/10.17910/B7V88T>
 
+<!--
 ## Methods
 
 - Generalized linear mixed effects modeling (*lmer* in *R*)
     + Random intercepts by participant
     + Coherence, Pattern, Speed as fixed effects
 - Probit link function (2AFC)
+-->
 
 ## Children's responses *p*(correct)
 
@@ -446,6 +454,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/coh.by.pattern.plot-1.png" height=450px>
 </div>
 
+<!--
 ## Children's RT
 
 <div class="centered">
@@ -457,12 +466,13 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/rt.plot-1.png" height=500px>
 </div>
+-->
 
 ## Behavioral Summary
 
 - Children's EEG: highest to **fast** speeds, **radial** (& rotational) patterns
-- Children's behavior: faster and more accurate to detect **fast** speeds, **radial** patterns
-- Adults faster and more accurate to detect **slow** **radial** patterns
+- Children's behavior: more accurate to detect **fast** speeds, **radial** patterns
+- Adults more accurate to detect **slow** speeds, **radial** patterns
 
 <!-- ## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png) -->
 
@@ -486,9 +496,11 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 
 ## Potential factors
 
-- Environment
-- Posture
-- Locomotion, head, eye movements
+- External
+    + Environment
+- Internal
+    + Posture
+    + Locomotion, head, eye movements
 
 ## Head mounted eye tracker data from "coupled" infant/mom dyads {.smaller}
 
@@ -498,6 +510,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 
 Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing in infants and adults. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7.123>
 
+<!--
 ## Infants {.smaller}
 
 <div class="centered">
@@ -517,6 +530,8 @@ Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing 
 </video>
 <https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true>
 <div>
+
+-->
 
 ---
 
@@ -545,7 +560,6 @@ Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing 
 </video>
 </div>
 
-
 ## Findings {.smaller}
 
 <div class="centered">
@@ -559,7 +573,7 @@ Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing 
 - Infant (passengers) experience faster visual speeds than mother
 - Controlling for speed of locomotion, environment
 
-## Comparing experienced flow across cultures {.smaller}
+## Experienced flow across cultures {.smaller}
 
 <div class="centered">
 <video width="532" height="400" controls>
@@ -613,11 +627,14 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 <img src='img/058LA.png' width=400px/>
 </div>
 
+<!--
 ## Empirical Pattern Distributions
+
 - Correlation with 'canonical' flow patterns
     + radial
     + rotational
     + translational
+-->
 
 ## Pattern Correlation Results
 
@@ -714,16 +731,16 @@ f^2+y^2 & -xy & -fy
 - Posture influences optic flow speeds & patterns
     - Crawling: faster speeds, more translational flow
     - Proximity to ground and pitch of head
-    - Geometry matters relatively little
+- Geometry matters relatively little
 
 ## Summing up
 
-- Infants commonly experience fast, linear optic flow
+- Infants commonly experience fast, linear optic flows
     + Body size, posture, head position/stability
     + Similar patterns across cultures
 - Brain and behavioral responses to optic flow develop throughout childhood
     + Still immature in 5-8 year-olds
-- Changes in the statistics of experienced optic flow shape development in infancy, and likely beyond
+- Changes in the statistics of experienced optic flow shape brain and behavioral development in infancy, and likely beyond
 
 ----
 
@@ -731,7 +748,7 @@ f^2+y^2 & -xy & -fy
 <img src="http://www.brainbodybeauty.com/art/news_attachments/Go_With_the_Flow.png" height=500px>
 </div>
 
-# On open data sharing
+# A good crisis?
 
 ---
 
@@ -739,21 +756,21 @@ f^2+y^2 & -xy & -fy
 <img src="https://s-media-cache-ak0.pinimg.com/originals/75/b3/16/75b316bbb56435b41ba4066369dbda78.jpg">
 </div>
 
-Open, transparent, and reproducible research practices -- including open data sharing -- have changed my work
+Open, transparent, and reproducible research practices -- including open data sharing -- have changed my work.
 
 ---
 
 <iframe src="https://databrary.org">
 </iframe>
 
-## The way forward
+## Let's not waste a good crisis
 
 - [Databrary.org](http://databrary.org): share video, procedures/tasks, data
     + Video the **best** way to capture, share procedures
     + Gilmore, R. O., & Adolph, K. E. (2017, February 9). Video can make science more open, transparent, robust, and reproducible. Retrieved from <http://osf.io/3kvp7>
 - [Open Science Framework (OSF)](http://osf.io): share non-identifiable materials, data
 
-## The way forward
+## Let's not waste a good crisis
 
 - [RStudio](https://www.rstudio.com) or [Jupyter](http://jupyter.org) for reproducible notebooks, workflows, analyses, & presentations
 - [GitHub](http://github.com): share flat-files & code, version control
@@ -766,6 +783,12 @@ Open, transparent, and reproducible research practices -- including open data sh
 - GitHub: <http://github.com/gilmore-lab>
 - [Databrary](http://databrary.org/party/6)
 - Email: rogilmore@psu.edu
+
+## Acknowledgements
+
+*Collaborators*: Karen Adolph (NYU); Jeremy Fesi (U.S. Marine Corps Research); John Franchak (UC-Riverside); Swapnaa Jayaraman (Indiana University); Kari Kretch; Ennio Mingolla, (Northeastern); Florian Raudies (LinkedIn); Amanda Thomas (Swarthmore).
+
+*Support*: NSF BCS-1147440, NSF BCS-1238599, NICHD U01-HD-076595
 
 ## Stack {.smaller}
 
