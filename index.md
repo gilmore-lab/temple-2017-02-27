@@ -1,20 +1,15 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 Temple 2017-02-27
 ================
 Rick Gilmore
-2017-02-26 21:27:25
+2017-02-28 09:30:55
 
-------------------------------------------------------------------------
+<span class="talktitle">Go with the flow: The development of behavioral sensitivity and brain responses to optic flow</span>
 
-<span class="talktitle"> **Go with the flow: The development of behavioral sensitivity and brain responses to optic flow** </span>
-
-### Rick O. Gilmore
+### **Rick O. Gilmore**
 
 *Support*: NSF BCS-1147440, NSF BCS-1238599, NICHD U01-HD-076595
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" width=150px> <img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" width=150px>
 
 Questions
 ---------
@@ -30,8 +25,8 @@ Approach
 
 -   **EEG measures** of brain responses to optic flow
 -   **Psychophysical measures** of optic flow perception
--   **Computational simulations** of optic flow experiences across developmental milestones
 -   **Empirical measures** of experienced optic flow across development from head-mounted video cameras
+-   **Computational simulations** of optic flow experiences across developmental milestones
 
 Claims
 ------
@@ -48,8 +43,8 @@ A pitch and a prediction
 -   Within 10 years (maybe 5) it will be impossible to get funded or published if you have not adopted them.
 -   Don't worry; It will be good for us and for science.
 
-Motivation
-==========
+What's and why's
+================
 
 What is Optic Flow?
 -------------------
@@ -191,47 +186,54 @@ Methods
 </video>
 </br> <https://nyu.databrary.org/volume/75/slot/9825/->
 
-Displays
---------
+<!--
+## Displays
 
--   Time varying coherence/signal-to-noise ratio (SNR), 100%/0%
--   Modulation frequency 1.2 Hz (1F1), dot update rate 24 Hz (1F2)
--   {Linear, Radial, Rotation} x {2 deg/s, 4 deg/s, 8 deg/s}
+- Time varying coherence/signal-to-noise ratio (SNR), 100%/0%
+- Modulation frequency 1.2 Hz (1F1), dot update rate 24 Hz (1F2)
+- {Linear, Radial, Rotation} x {2 deg/s, 4 deg/s, 8 deg/s}
 
-Data analysis
--------------
+## Data analysis
 
--   Fourier analysis (frequency domain)
-    -   generates complex domain (real, imaginary) components
-    -   time-varying signals have amplitude, phase
--   [Codepen Demo](http://codepen.io/anon/pen/jPGJMK)
+- Fourier analysis (frequency domain)
+    + generates complex domain (real, imaginary) components
+    + time-varying signals have amplitude, phase
+- [Codepen Demo](http://codepen.io/anon/pen/jPGJMK)
 
-Data analysis
--------------
+## Data analysis
 
--   Mixed effects MANOVA to capture phase, amplitude
-    -   *Pattern* (radial, rotation, linear) and *Speed* (2, 4, 8 deg/s) as fixed effects
-    -   Individual means as random factors
--   Analyze channels independently with conservative *α* (.0005)
-
+- Mixed effects MANOVA to capture phase, amplitude
+    + *Pattern* (radial, rotation, linear) and *Speed* (2, 4, 8 deg/s) as fixed effects
+    + Individual means as random factors
+- Analyze channels independently with conservative $\alpha$ (.0005)
+-->
 [1F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
 
 [1F1 Channels *p* &lt; .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px">
 
-------------------------------------------------------------------------
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
 
+<!--
+----
+
+<div class="centered">
 <img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
-
-[Complex Domain Plot of 1F1 Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</div>
+-->
+[Complex Domain Plot of 1F1 {.smaller} Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png" height="500px">
+
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
 
 1F1 Results Summary
 -------------------
@@ -240,20 +242,26 @@ Data analysis
 -   Radial & rotation &gt;&gt; translation
 -   Amplitude and phase differences
 
-[2F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/2F1/child/figX-channel-wise-effects-1.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!--
+## [2F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/2F1/child/figX-channel-wise-effects-1.png)
 
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/2F1/child/figX-channel-wise-effects-1.png" width="800px">
-
+</div>
+-->
 [3F1 Channel-Wise Results](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/channel-wise-effects-1.png)
 ------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
 
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
+
 [3F1 Channels *p* &lt; .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
+
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
 
 <!--
 ----
@@ -268,6 +276,8 @@ Data analysis
 
 <img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-complex-domain-plots-speed-1.png" height="500px">
 
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
+
 3F1 Results Summary
 -------------------
 
@@ -275,17 +285,18 @@ Data analysis
 -   Speed, but not pattern tuned, 2 &lt; 4 = 8 deg/s
 -   Amplitude and phase differences
 
-[1F2 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!--
+## [1F2 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
 
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png" width="800px">
+</div>
 
-[1F2 Channels *p* &lt; .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [1F2 Channels *p* < .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png)
 
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
-
-<!---
+</div>
 
 ----
 
@@ -301,47 +312,55 @@ Results Summary
     -   speed (medial)
     -   vs. pattern (lateral)
 -   Radial & rotation &lt;&gt; translation, phase & amplitude
--   Speed tuning (local and global)
-
-Children vs. Adults
--------------------
+-   Speed tuning
 
 [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
 
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
+
 [Adults' 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png)
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png" width="800px">
+
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
 
 [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
 
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
+
 [Adults' 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png)
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png" width="800px">
 
-[Children's 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
-----------------------------------------------------------------------------------------------------------------------------------------------
+[(R. Gilmore, Thomas, and Fesi 2016)](http://doi.org/10.1371/journal.pone.0157911)
 
+<!--
+## [Children's 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
+
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png" width="800px">
+</div>
 
-[Adults' 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/adult/figX-channel-wise-effects-1.png)
--------------------------------------------------------------------------------------------------------------------------------------------
+## [Adults' 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/adult/figX-channel-wise-effects-1.png)
 
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/adult/figX-channel-wise-effects-1.png" width="800px">
-
+</div>
+-->
 Developmental Effects
 ---------------------
 
 -   Children adult-like in many respects
     -   Lateral "pattern" responses @ 1F1
-    -   Medial "speed" responses @ 3F1 and 1F2
+    -   Medial "speed" responses @ 3F1 (and 1F2)
 -   Children activate fewer channels
 
 Behavioral responses to flow
@@ -375,15 +394,16 @@ Methods
     -   <https://nyu.databrary.org/volume/218>
 -   n=30 adults (18.7–23.9 yrs, M = 20.8 yrs, 16 female)
     -   <http://doi.org/10.17910/B7V88T>
+    -   [(Adamiak et al. 2015)](http://doi.org/10.1167/15.12.1008)
 
-Methods
--------
+<!--
+## Methods
 
--   Generalized linear mixed effects modeling (*lmer* in *R*)
-    -   Random intercepts by participant
-    -   Coherence, Pattern, Speed as fixed effects
--   Probit link function (2AFC)
-
+- Generalized linear mixed effects modeling (*lmer* in *R*)
+    + Random intercepts by participant
+    + Coherence, Pattern, Speed as fixed effects
+- Probit link function (2AFC)
+-->
 Children's responses *p*(correct)
 ---------------------------------
 
@@ -393,6 +413,8 @@ Adults' responses *p*(correct)
 ------------------------------
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.plot-1.png" height=500px>
+
+[(Adamiak et al. 2015)](http://doi.org/10.1167/15.12.1008)
 
 Statistical modeling
 --------------------
@@ -410,6 +432,8 @@ Speed effects in adults
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.by.spd.plot-1.png" height=450px>
 
+[(Adamiak et al. 2015)](http://doi.org/10.1167/15.12.1008)
+
 Pattern effects in children
 ---------------------------
 
@@ -420,22 +444,27 @@ Pattern effects in adults
 
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/coh.by.pattern.plot-1.png" height=450px>
 
-Children's RT
--------------
+[(Adamiak et al. 2015)](http://doi.org/10.1167/15.12.1008)
 
+<!--
+## Children's RT
+
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/rt.plot-1.png" height=500px>
+</div>
 
-Adults' RT
-----------
+## Adults' RT
 
+<div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/rt.plot-1.png" height=500px>
-
+</div>
+-->
 Behavioral Summary
 ------------------
 
 -   Children's EEG: highest to **fast** speeds, **radial** (& rotational) patterns
--   Children's behavior: faster and more accurate to detect **fast** speeds, **radial** patterns
--   Adults faster and more accurate to detect **slow** **radial** patterns
+-   Children's behavior: more accurate to detect **fast** speeds, **radial** patterns
+-   Adults more accurate to detect **slow** speeds, **radial** patterns
 
 <!-- ## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png) -->
 <!-- <div class="centered"> -->
@@ -455,9 +484,11 @@ What influences developmental shifts?
 Potential factors
 -----------------
 
--   Environment
--   Posture
--   Locomotion, head, eye movements
+-   External
+    -   Environment
+-   Internal
+    -   Posture
+    -   Locomotion, head, eye movements
 
 Head mounted eye tracker data from "coupled" infant/mom dyads
 -------------------------------------------------------------
@@ -466,23 +497,28 @@ Head mounted eye tracker data from "coupled" infant/mom dyads
 
 Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing in infants and adults. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7.123>
 
-Infants
--------
-
-<video width="640" height="480" controls>
-<source src="https://nyu.databrary.org/slot/8239/-/asset/19179/download?inline=true" type="video/mp4"> Your browser does not support the video tag.
-</video>
-<https://nyu.databrary.org/slot/8239/-/asset/19179/download?inline=true>
-
-Mothers
--------
+<!--
+## Infants {.smaller}
 
 <div class="centered">
 <video width="640" height="480" controls>
-<source src="https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true" type="video/mp4"> Your browser does not support the video tag.
+  <source src="https://nyu.databrary.org/slot/8239/-/asset/19179/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<https://nyu.databrary.org/slot/8239/-/asset/19179/download?inline=true>
+</div>
+
+## Mothers {.smaller}
+
+<div class="centered">
+<video width="640" height="480" controls>
+  <source src="https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 <https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true>
 <div>
+
+-->
 
 ------------------------------------------------------------------------
 
@@ -515,13 +551,15 @@ Findings
 -   Infant (passengers) experience faster visual speeds than mother
 -   Controlling for speed of locomotion, environment
 
-Comparing experienced flow across cultures
-------------------------------------------
+Experienced flow across cultures
+--------------------------------
 
 <video width="532" height="400" controls>
 <source src="https://nyu.databrary.org/slot/11630/1567557,1747248/asset/39854/download?inline=true" type="video/mp4"> Your browser does not support the video tag.
 </video>
 Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene Statistics of Visual Experience Across Development and Culture. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7988V>
+
+[(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
 
 ------------------------------------------------------------------------
 
@@ -534,38 +572,50 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 | India   | 17      | 13    | 3-63      | 3.1 (0.5-6.0)   |
 | U.S.    | 15      | 19    | 4-62      | 4.6 (0.2-7.6)   |
 
+</br> </br> [(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
+
 *p*(moving) vs. stationary
 --------------------------
 
 <img src="img/time-moving-stationary-indiana-india.png" height=450px>
+
+[(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
 
 Illustrative Speed Histograms - 6 weeks
 ---------------------------------------
 
 <img src='img/006AP.png' width=400px> <img src='img/006MO.png' width=400px>
 
+[(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
+
 Illustrative Speed Histograms -- 34 weeks
 -----------------------------------------
 
 <img src='img/034JC.png' width=400px> <img src='img/034NW.png' width=400px>
+
+[(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
 
 Illustrative Speed Histograms -- 58 weeks
 -----------------------------------------
 
 <img src='img/057AP.png' width=400px/> <img src='img/058LA.png' width=400px/>
 
-Empirical Pattern Distributions
--------------------------------
+[(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
 
--   Correlation with 'canonical' flow patterns
-    -   radial
-    -   rotational
-    -   translational
+<!--
+## Empirical Pattern Distributions
 
+- Correlation with 'canonical' flow patterns
+    + radial
+    + rotational
+    + translational
+-->
 Pattern Correlation Results
 ---------------------------
 
-<img src='img/pattern-correlations.jpg' width=800px/>
+<img src='img/pattern-correlations.jpg' height=450px/>
+
+[(R. O. Gilmore, Raudies, and Jayaraman 2015)](10.1109/DEVLRN.2015.7345450)
 
 Conclusions: Measuring experienced flow
 ---------------------------------------
@@ -626,53 +676,51 @@ Simulated Flow Speeds (m/s)
 | Crawling           | 14.41        | 14.42 | 14.43     | 14.62     |
 | Walking            | 9.38         | 8.56  | 7.39      | 9.18      |
 
-</br> </br> [(R. O. Gilmore, Raudies, and Jayaraman 2015)](http://doi.org/10.1109/DEVLRN.2015.7345450)
-
 Simulation Conclusions
 ----------------------
 
 -   Posture influences optic flow speeds & patterns
     -   Crawling: faster speeds, more translational flow
     -   Proximity to ground and pitch of head
-    -   Geometry matters relatively little
+-   Geometry matters relatively little
 
 Summing up
 ----------
 
--   Infants commonly experience fast, linear optic flow
+-   Infants commonly experience fast, linear optic flows
     -   Body size, posture, head position/stability
     -   Similar patterns across cultures
 -   Brain and behavioral responses to optic flow develop throughout childhood
     -   Still immature in 5-8 year-olds
--   Changes in the statistics of experienced optic flow shape development in infancy, and likely beyond
+-   Changes in the statistics of experienced optic flow shape brain and behavioral development in infancy, and likely beyond
 
 ------------------------------------------------------------------------
 
 <img src="http://www.brainbodybeauty.com/art/news_attachments/Go_With_the_Flow.png" height=500px>
 
-On open data sharing
-====================
+A good crisis?
+==============
 
 ------------------------------------------------------------------------
 
 <img src="https://s-media-cache-ak0.pinimg.com/originals/75/b3/16/75b316bbb56435b41ba4066369dbda78.jpg">
 
-Open, transparent, and reproducible research practices -- including open data sharing -- have changed my work
+Open, transparent, and reproducible research practices -- including open data sharing -- have changed my work.
 
 ------------------------------------------------------------------------
 
 <iframe src="https://databrary.org">
 </iframe>
-The way forward
----------------
+Let's not waste a good crisis
+-----------------------------
 
 -   [Databrary.org](http://databrary.org): share video, procedures/tasks, data
     -   Video the **best** way to capture, share procedures
     -   Gilmore, R. O., & Adolph, K. E. (2017, February 9). Video can make science more open, transparent, robust, and reproducible. Retrieved from <http://osf.io/3kvp7>
 -   [Open Science Framework (OSF)](http://osf.io): share non-identifiable materials, data
 
-The way forward
----------------
+Let's not waste a good crisis
+-----------------------------
 
 -   [RStudio](https://www.rstudio.com) or [Jupyter](http://jupyter.org) for reproducible notebooks, workflows, analyses, & presentations
 -   [GitHub](http://github.com): share flat-files & code, version control
@@ -687,10 +735,17 @@ Keep in touch
 -   [Databrary](http://databrary.org/party/6)
 -   Email: <rogilmore@psu.edu>
 
+Acknowledgements
+----------------
+
+*Collaborators*: Karen Adolph (NYU); Jeremy Fesi (U.S. Marine Corps Research); John Franchak (UC-Riverside); Swapnaa Jayaraman (Indiana University); Kari Kretch; Ennio Mingolla, (Northeastern); Florian Raudies (LinkedIn); Amanda Thomas (Swarthmore).
+
+*Support*: NSF BCS-1147440, NSF BCS-1238599, NICHD U01-HD-076595
+
 Stack
 -----
 
-This talk was produced in [RStudio](http://rstudio.com) version 1.0.136 on 2017-02-26. The code used to generate the slides can be found at <http://github.com/gilmore-lab/temple-2017-02-27/>. Information about the R Session that produced the code is as follows:
+This talk was produced in [RStudio](http://rstudio.com) version 1.0.136 on 2017-02-28. The code used to generate the slides can be found at <http://github.com/gilmore-lab/temple-2017-02-27/>. Information about the R Session that produced the code is as follows:
 
 ``` r
 sessionInfo()
@@ -707,17 +762,21 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] backports_1.0.4 magrittr_1.5    rsconnect_0.7   rprojroot_1.1  
-    ##  [5] htmltools_0.3.5 tools_3.3.2     yaml_2.1.14     Rcpp_0.12.8    
-    ##  [9] stringi_1.1.2   rmarkdown_1.3   knitr_1.15.1    stringr_1.1.0  
-    ## [13] digest_0.6.11   evaluate_0.10
+    ##  [1] backports_1.0.4 magrittr_1.5    rprojroot_1.1   htmltools_0.3.5
+    ##  [5] tools_3.3.2     yaml_2.1.14     Rcpp_0.12.8     stringi_1.1.2  
+    ##  [9] rmarkdown_1.3   knitr_1.15.1    stringr_1.1.0   digest_0.6.11  
+    ## [13] evaluate_0.10
 
 References
 ----------
 
+Adamiak, William, Amanda Thomas, Shivani Patel, and Rick Gilmore. 2015. “Adult Observer’s Sensitivity to Optic Flow Varies by Pattern and Speed.” *Journal of Vision* 15 (12): 1008. doi:[10.1167/15.12.1008](https://doi.org/10.1167/15.12.1008).
+
 Gilmore, R. O., F. Raudies, and S. Jayaraman. 2015. “What Accounts for Developmental Shifts in Optic Flow Sensitivity?” In *2015 Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)*, 19–25. doi:[10.1109/DEVLRN.2015.7345450](https://doi.org/10.1109/DEVLRN.2015.7345450).
 
 Gilmore, R.O., C. Hou, M.W. Pettet, and A.M. Norcia. 2007. “Development of Cortical Responses to Optic Flow.” *Visual Neuroscience* 24 (06): 845–56. doi:[10.1017/S0952523807070769](https://doi.org/10.1017/S0952523807070769).
+
+Gilmore, R.O., A.L. Thomas, and J. Fesi. 2016. “Children’s Brain Responses to Optic Flow Vary by Pattern Type and Motion Speed.” *PLOS ONE* 11 (6): e0157911. doi:[10.1371/journal.pone.0157911](https://doi.org/10.1371/journal.pone.0157911).
 
 Hou, C., R.O. Gilmore, M.W. Pettet, and A.M. Norcia. 2009. “Spatio-Temporal Tuning of Coherent Motion Evoked Responses in 4–6 Month Old Infants and Adults.” *Vision Research* 49 (20): 2509–17. doi:[10.1016/j.visres.2009.08.007](https://doi.org/10.1016/j.visres.2009.08.007).
 

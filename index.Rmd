@@ -227,17 +227,20 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 - Analyze channels independently with conservative $\alpha$ (.0005)
 -->
 
-## [1F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
+## [1F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-## [1F1 Channels *p* < .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png) 
+## [1F1 Channels *p* < .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px">
-</div>
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)</div>
 
 <!--
 ----
@@ -247,11 +250,12 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 </div>
 -->
 
-## [Complex Domain Plot of 1F1 Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png)
+## [Complex Domain Plot of 1F1 {.smaller} Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png)
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png" height="500px">
-</div>
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)</div>
 
 ## 1F1 Results Summary
 
@@ -267,16 +271,20 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 </div>
 -->
 
-## [3F1 Channel-Wise Results](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/channel-wise-effects-1.png)
+## [3F1 Channel-Wise Results](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-## [3F1 Channels *p* < .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png)
+## [3F1 Channels *p* < .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
 <!--
@@ -288,10 +296,12 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 
 -->
 
-## [Complex Domain Plot of 3F1 Channels](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-complex-domain-plots-speed-1.png)
+## [Complex Domain Plot of 3F1 Channels](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-complex-domain-plots-speed-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-complex-domain-plots-speed-1.png" height="500px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
 ## 3F1 Results Summary
@@ -329,28 +339,36 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 - Radial & rotation <> translation, phase & amplitude
 - Speed tuning
 
-## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
+## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-## [Adults' 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png)
+## [Adults' 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png)
+## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-## [Adults' 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png)
+## [Adults' 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png" width="800px">
+
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
 <!--
@@ -403,6 +421,7 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
     + <https://nyu.databrary.org/volume/218>
 - n=30 adults (18.7–23.9 yrs, M = 20.8 yrs, 16 female)
     + <http://doi.org/10.17910/B7V88T>
+    + [[@adamiak_adult_2015]](http://doi.org/10.1167/15.12.1008)
 
 <!--
 ## Methods
@@ -419,10 +438,12 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.plot-1.png" height=500px>
 </div>
 
-## Adults' responses *p*(correct)
+## Adults' responses *p*(correct) {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.plot-1.png" height=500px>
+
+[[@adamiak_adult_2015]](http://doi.org/10.1167/15.12.1008)
 </div>
 
 ## Statistical modeling
@@ -436,10 +457,12 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.by.spd.plot-1.png" height=450px>
 </div>
 
-## Speed effects in adults
+## Speed effects in adults {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.by.spd.plot-1.png" height=450px>
+
+[[@adamiak_adult_2015]](http://doi.org/10.1167/15.12.1008)
 </div>
 
 ## Pattern effects in children
@@ -448,10 +471,12 @@ Sensitivity to slow (linear) speeds develops slowly in monkeys.
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/coh.by.pattern.plot-1.png" height=450px>
 </div>
 
-## Pattern effects in adults
+## Pattern effects in adults {.smaller}
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/coh.by.pattern.plot-1.png" height=450px>
+
+[[@adamiak_adult_2015]](http://doi.org/10.1167/15.12.1008)
 </div>
 
 <!--
@@ -582,6 +607,8 @@ Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing 
 </video>
 
 Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene Statistics of Visual Experience Across Development and Culture. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7988V>
+
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
 ----
@@ -598,33 +625,45 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 |---------|---------|-------|-----------|------------------|
 | India   | 17      | 13    | 3-63      | 3.1 (0.5-6.0) |
 | U.S.    | 15      | 19    | 4-62      | 4.6 (0.2-7.6)    |
+
+</br>
+</br>
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
-## *p*(moving) vs. stationary
+## *p*(moving) vs. stationary {.smaller}
 
 <div class="centered">
 <img src="img/time-moving-stationary-indiana-india.png" height=450px>
+
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
-## Illustrative Speed Histograms - 6 weeks {.flexbox .vcenter}
+## Illustrative Speed Histograms - 6 weeks {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src='img/006AP.png' width=400px>
 <img src='img/006MO.png' width=400px>
+
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
-## Illustrative Speed Histograms -- 34 weeks {.flexbox .vcenter}
+## Illustrative Speed Histograms -- 34 weeks {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src='img/034JC.png' width=400px>
 <img src='img/034NW.png' width=400px>
+
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
-## Illustrative Speed Histograms -- 58 weeks {.flexbox .vcenter}
+## Illustrative Speed Histograms -- 58 weeks {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src='img/057AP.png' width=400px/>
 <img src='img/058LA.png' width=400px/>
+
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
 <!--
@@ -636,10 +675,12 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
     + translational
 -->
 
-## Pattern Correlation Results
+## Pattern Correlation Results {.smaller}
 
 <div class="centered">
-<img src='img/pattern-correlations.jpg' width=800px/>
+<img src='img/pattern-correlations.jpg' height=450px/>
+
+[[@gilmore_what_2015]](10.1109/DEVLRN.2015.7345450)
 </div>
 
 ## Conclusions: Measuring experienced flow
@@ -697,7 +738,7 @@ f^2+y^2 & -xy & -fy
 | Field of view width      | 60 deg   |
 | Field of view height     | 45 deg   |
 
-## Simulating Flow Fields {.flexbox .vcenter}
+## Simulating Flow Fields {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src='img/simulation-flow-patterns.png' width=800px/>
@@ -705,7 +746,7 @@ f^2+y^2 & -xy & -fy
 [[@gilmore_what_2015]](http://doi.org/10.1109/DEVLRN.2015.7345450)
 </div>
 
-## Flow Direction Distributions by Geometry & Posture
+## Flow Direction Distributions by Geometry & Posture {.smaller}
 
 <div class="centered">
 <img src='img/simulation-flow-direction-hist.png' width=600px/>
@@ -721,9 +762,6 @@ f^2+y^2 & -xy & -fy
 | Crawling           | 14.41        | 14.42| 14.43     |14.62      |
 | Walking            | 9.38         | 8.56 | 7.39      |9.18       |
 
-</br>
-</br>
-[[@gilmore_what_2015]](http://doi.org/10.1109/DEVLRN.2015.7345450)
 </div>
 
 ## Simulation Conclusions
